@@ -1,0 +1,97 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+body{
+  background-color: gainsboro;
+  background-attachment: fixed;
+	background-image: url("images/2NEQ.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 72px;
+    font-family: 'BttfFont', sans-serif; /* use the Back to the Future font */
+    /* font-size: 5em; adjust the font size; as needed */
+    text-align: center; /* center the text */
+    text-shadow: 2px 2px rgb(255, 85, 0), -2px -2px rgb(255, 85, 0), 2px -2px rgb(255, 85, 0), -2px 2px rgb(255, 85, 0);
+    color: #fff; /* set the text color to white */
+    padding: 0.2em 0.4em; /* add some padding to the title */
+}
+
+/* Style the main section */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+/* Style the slot reels */
+.reel {
+  margin: 0 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Style the reel images */
+.reel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the buttons section */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Style the bet buttons */
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the reset button */
+#resetButton {
+  background-color: #f44336;
+}
+
+/* Style the total amount */
+#total {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px;
+  color: white;
+}
+
+/* Style the display message */
+#display {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+
